@@ -1,0 +1,9 @@
+language: c
+before_script:
+- chmod +x ./cibuild
+script: "./cibuild"
+branches:
+  only:
+  - master
+sudo: false
+
